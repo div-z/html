@@ -1,0 +1,19 @@
+
+img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.temple{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+
+}
+
+.temple1{
+    position: sticky;
+    top: 60%;
+    left: 5%;
+}

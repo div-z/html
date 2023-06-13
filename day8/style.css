@@ -1,0 +1,62 @@
+/* Define the global or root variables*/
+:root{
+    --primaryColor:#213555;
+    --backgroundColor:#F5EFE7;
+    --primaryAccentColor:#4F709C;
+    --secondaryColor:#D8C4B6;
+    --whiteColor:white;
+    --blackcolor:#222222;
+    --primaryFont:"Open Sans",sans-serif;
+    --navbarHeight:3rem;
+
+}
+
+/* main css*/
+body{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    margin-top: 0px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    
+}
+
+.navigation{
+    background-color: var(--whiteColor);
+    height: var(--navbarHeight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    padding-left: 20px;
+    width: 12rem;
+    align-items: center;
+    
+
+
+}
+
+.logoImage{
+    height: 2rem;
+    /*float: left;*/
+    padding: 8px;
+}
+
+.contactImage{
+    height: 2rem;
+    padding: 8px;
+}
+
+.menuitems{
+    flex-grow: 2;
+}
+
+.menuitem{
+    margin-left: 20px;
+}
+

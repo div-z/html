@@ -48,16 +48,36 @@ a{
 
 }
 
+.contact{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
 .logoImage{
     height: 2rem;
     /*float: left;*/
     padding: 8px;
 }
 
+.contactbutton{
+    width: 60px;
+    height: 50px;
+}
+
 .contactImage{
     height: 2rem;
     padding: 8px;
     margin-right: 40px;
+    /* padding-left: 150px; */
+    
+}
+
+.contactnumber{
+    font-size: 12px;
+    padding-top: 7px;
+    padding-right: 9px;
+    
 }
 
 .menuitems{
@@ -128,3 +148,49 @@ a{
     background: linear-gradient(white,rgb(215,215,215));
 
 }
+
+
+/* services section */
+
+.services{
+    margin: 20px 20px;
+    padding: 30px;
+}
+
+.servicetext{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textsubheading{
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+
+}
+
+.textheading{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.servicecards{
+    margin-top: 30px;
+    display: flex;
+}
+
+.servicecard{
+    border-radius: 2px;
+    border: 2px solid grey;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    margin: 15px;
+    padding: 40px;
+}
+
+.servicecard:hover{
+    border: none;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+.
